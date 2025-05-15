@@ -27,6 +27,14 @@ namespace Exo_Banque
             c1.Retrait(1_400);
 
             Console.WriteLine($"Le compte {c1.Numero} appartenant à {c1.Titulaire.Prenom} {c1.Titulaire.Nom}\na pour solde {c1.Solde} € avec une ligne de crédit de {c1.LigneDeCredit}.");
-         }
+
+            Banque b = new Banque() { Nom = "Au bon bénéfice!" };
+
+            b.Ajouter(c1);
+
+            Courant compte = b["BE01"];
+
+            Console.WriteLine($"Le compte {compte.Numero} appartenant à {compte.Titulaire.Prenom} {compte.Titulaire.Nom}\na pour solde {compte.Solde} € avec une ligne de crédit de {compte.LigneDeCredit}.");
+        }
     }
 }
