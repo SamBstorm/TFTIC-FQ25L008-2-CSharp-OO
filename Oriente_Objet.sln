@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oriente_Objet", ".\Oriente_Objet\Oriente_Objet.csproj", "{8EACF5C6-A6EC-432D-BC23-839AFD2787E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oriente_Objet", "Oriente_Objet\Oriente_Objet.csproj", "{8EACF5C6-A6EC-432D-BC23-839AFD2787E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mauritcio", "Mauritcio", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{DF9E9034-C2AC-4BDE-BC4C-2B1E89ACBB0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-NameSpace", ".\Demo-NameSpace\Demo-NameSpace.csproj", "{9538CB1E-FCA6-4CB5-8EA9-D00D5AAF5EC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-NameSpace", "Demo-NameSpace\Demo-NameSpace.csproj", "{9538CB1E-FCA6-4CB5-8EA9-D00D5AAF5EC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Encapsulation", ".\Demo-Encapsulation\Demo-Encapsulation.csproj", "{3955FF0A-52E0-4798-A9FB-70095B4FDE9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Encapsulation", "Demo-Encapsulation\Demo-Encapsulation.csproj", "{3955FF0A-52E0-4798-A9FB-70095B4FDE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Proprietes", ".\Demo-Proprietes\Demo-Proprietes.csproj", "{60504576-6D65-45C0-857B-B17C287543EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Proprietes", "Demo-Proprietes\Demo-Proprietes.csproj", "{60504576-6D65-45C0-857B-B17C287543EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exos-Slides", "Exos-Slides", "{27235F46-EC31-4E7F-9E49-4DD0814EE7A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Banque", ".\Exo-Banque\Exo-Banque.csproj", "{6EED181F-E7EF-4F9B-BF0E-16D5A8EAAC48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Banque", "Exo-Banque\Exo-Banque.csproj", "{6EED181F-E7EF-4F9B-BF0E-16D5A8EAAC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Indexeur", "Demo-Indexeur\Demo-Indexeur.csproj", "{CF7B4774-94EF-412D-AB4F-BC49D6186C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6EED181F-E7EF-4F9B-BF0E-16D5A8EAAC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EED181F-E7EF-4F9B-BF0E-16D5A8EAAC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EED181F-E7EF-4F9B-BF0E-16D5A8EAAC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7B4774-94EF-412D-AB4F-BC49D6186C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7B4774-94EF-412D-AB4F-BC49D6186C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7B4774-94EF-412D-AB4F-BC49D6186C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7B4774-94EF-412D-AB4F-BC49D6186C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{3955FF0A-52E0-4798-A9FB-70095B4FDE9A} = {DF9E9034-C2AC-4BDE-BC4C-2B1E89ACBB0F}
 		{60504576-6D65-45C0-857B-B17C287543EB} = {DF9E9034-C2AC-4BDE-BC4C-2B1E89ACBB0F}
 		{6EED181F-E7EF-4F9B-BF0E-16D5A8EAAC48} = {27235F46-EC31-4E7F-9E49-4DD0814EE7A7}
+		{CF7B4774-94EF-412D-AB4F-BC49D6186C6A} = {DF9E9034-C2AC-4BDE-BC4C-2B1E89ACBB0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5189836E-C4A6-4937-BA63-D19E198E4A75}
