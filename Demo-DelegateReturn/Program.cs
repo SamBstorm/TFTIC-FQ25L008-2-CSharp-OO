@@ -15,11 +15,18 @@ namespace Demo_DelegateReturn
                 new MusicSingle("Franck Sinatra","Flying to the moon", 148)
                 );
 
-            CDPlayer player = new CDPlayer();
-            player.CurrentCD = cd1;
+            CompactDisk cd2 = new CompactDisk("Compil' CyberSécu! 2",
+                new MusicSingle("Céline Dion", "All by myself", 341),
+                new MusicSingle("Céline Dion", "My heart will go on", 546),
+                new MusicSingle("Céline Dion", "Là-bas", 209),
+                new MusicSingle("Céline Dion", "Sous le vent", 208)
+                );
 
-            player.SetProgram(5);
-            player.SetProgram(6);
+            CDPlayer player = new CDPlayer();
+            player.CurrentCD = cd2;
+
+            //player.SetProgram(5);
+            //player.SetProgram(6);
             player.SetProgram(1);
             player.SetProgram(1);
             player.SetProgram(4);
