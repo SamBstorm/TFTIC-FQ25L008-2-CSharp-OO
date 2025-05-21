@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionBanqueInterface", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Exceptions", "Demo-Exceptions\Demo-Exceptions.csproj", "{23CD7FDF-2DE3-47AF-937B-F93D7AD027F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionBanqueException", "GestionBanqueException\GestionBanqueException.csproj", "{8132B7D7-D3DA-4140-8C45-3C744BCFF394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{23CD7FDF-2DE3-47AF-937B-F93D7AD027F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23CD7FDF-2DE3-47AF-937B-F93D7AD027F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23CD7FDF-2DE3-47AF-937B-F93D7AD027F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8132B7D7-D3DA-4140-8C45-3C744BCFF394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8132B7D7-D3DA-4140-8C45-3C744BCFF394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8132B7D7-D3DA-4140-8C45-3C744BCFF394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8132B7D7-D3DA-4140-8C45-3C744BCFF394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{F1AF7B64-2D54-C06B-1107-A28DB5C160CF} = {27235F46-EC31-4E7F-9E49-4DD0814EE7A7}
 		{963297CD-3695-516C-BF77-191BC057D361} = {27235F46-EC31-4E7F-9E49-4DD0814EE7A7}
 		{23CD7FDF-2DE3-47AF-937B-F93D7AD027F4} = {DF9E9034-C2AC-4BDE-BC4C-2B1E89ACBB0F}
+		{8132B7D7-D3DA-4140-8C45-3C744BCFF394} = {27235F46-EC31-4E7F-9E49-4DD0814EE7A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5189836E-C4A6-4937-BA63-D19E198E4A75}
